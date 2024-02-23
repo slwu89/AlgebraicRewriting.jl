@@ -6,30 +6,34 @@ version = "0.3.1"
 
 [deps]
 ACSets = "227ef7b5-1206-438b-ac65-934d6da304b8"
+AlgebraicPetri = "4f99eebe-17bf-4e98-b6a1-2c4f205a959b"
 Catlab = "134e5e36-593f-5add-ad60-77f754baafbe"
 CompTime = "0fb5dd42-039a-4ca4-a1d7-89a96eae6d39"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Fleck = "5bb9b785-358c-4fee-af0f-b94a146244a8"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [weakdeps]
-Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
 DataMigrations = "0c4ad18d-0c49-4bc2-90d5-5bca8f00d6ae"
+Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
 
 [extensions]
-AlgebraicRewritingLuxorExt = "Luxor"
 AlgebraicRewritingDataMigrationsExt = "DataMigrations"
+AlgebraicRewritingLuxorExt = "Luxor"
 
 [compat]
 ACSets = "0.2.9"
 Catlab = "0.16.7"
+CompTime = "0.1"
 DataMigrations = "0.0.2"
 DataStructures = "0.17, 0.18"
+MLStyle = "0.4"
 Reexport = "^1"
 StructEquality = "2.1"
 julia = "1.9"
-MLStyle = "0.4"
-CompTime = "0.1"
